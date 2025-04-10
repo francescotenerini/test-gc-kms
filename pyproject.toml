@@ -1,0 +1,11 @@
+[project]
+name = "kms"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "crcmod>=1.7",
+    "cryptography>=44.0.2",
+    "google-cloud-kms>=3.4.1",
+]
